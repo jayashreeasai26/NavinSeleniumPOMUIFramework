@@ -6,4 +6,11 @@ public class F2 {
     
     int p=10;
 	}
+	
+	
+	public void login() {
+		String un ="jayas";
+		String pw = "jayas@123";
+		
+	}
 }
