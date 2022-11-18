@@ -11,7 +11,7 @@ public class F2 {
 	public void login() {
 
 
-		String un ="jaya";
+		String un ="jay";
 		String pw = "jay@123";
 		String role = "admin";
 	}
