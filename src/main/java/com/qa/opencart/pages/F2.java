@@ -10,8 +10,9 @@ public class F2 {
 	
 	public void login() {
 
-		String un ="jayas";
-		String pw = "jayas@123";
+		String un ="jaya";
+		String pw = "jay@123";
+		String role = "admin";
 		System.out.println("login is done");
 
 	}
