@@ -1,9 +1,9 @@
 package com.qa.opencart.pages;
 
-public class F2 {
+public class F4 {
 	
 	public static void main(String[]args){
     
-    int p=10;
+    int k=10;
 	}
 }
