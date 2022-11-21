@@ -17,10 +17,12 @@
     </classes>
   </test> 
   
+  <!-- 
   <test name="Accounts Page Test">
       <classes>
       <class name="com.qa.opencart.Test.AccountsPageTest"/>
     </classes>
   </test> 
+  -->
   
 </suite> <!-- Suite -->
