@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Open Cart App Regression Suit" thread-count="2" parallel="tests" verbose="4">
+<suite name="Open Cart App Sanity Suit" thread-count="2" parallel="tests" verbose="4">
 
 <listeners>
 <listener class-name="com.qa.opencart.Listeners.ExtentReportListener" />
@@ -17,11 +17,6 @@
     </classes>
   </test> 
   
-  <test name="Accounts Page Test">
-      <classes>
-      <class name="com.qa.opencart.Test.AccountsPageTest"/>
-    </classes>
-  </test> 
   
 </suite> <!-- Suite -->
 
