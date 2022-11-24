@@ -36,7 +36,7 @@ pipeline
         stage('Regression Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    https://github.com/jayashreeasai26/NavinSeleniumPOMUIFramework.git'
+                    git 'https://github.com/jayashreeasai26/NavinSeleniumPOMUIFramework.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=scrTestResources/testRunners/testng_regression.xml"
                     
                 }
