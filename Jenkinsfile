@@ -52,7 +52,7 @@ pipeline
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/allure-results']]
+                        results: [[path: '/NavinseleniumPOMSeries/allure-results ']]
                     ])
                 }
             }
@@ -64,7 +64,7 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
-                                  reportDir: 'reports', 
+                                  reportDir: '/NavinseleniumPOMSeries/reports', 
                                   reportFiles: 'TestExecutionReport.html', 
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
@@ -92,7 +92,7 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
-                                  reportDir: 'reports', 
+                                  reportDir: '/NavinseleniumPOMSeries/reports ', 
                                   reportFiles: 'TestExecutionReport.html', 
                                   reportName: 'HTML Sanity Extent Report', 
                                   reportTitles: ''])
